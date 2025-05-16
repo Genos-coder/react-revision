@@ -13,7 +13,8 @@ export default Conditional;
 function Drink({ name }: { name: string }) {
   let part, caffeine, age;
   if (name == "tea") {
-    (part = "leaf"), (caffeine = "15–70 mg/cup");
+    part = "leaf";
+    caffeine = "15–70 mg/cup";
     age = "4,000+ years";
   } else if (name === "coffee") {
     part = "bean";

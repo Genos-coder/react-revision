@@ -1,8 +1,8 @@
 import Wrapper from "@/components/Wrapper";
 import { people } from "@/data/describingListSplit";
 function ListSplit() {
-  let chemistList: ItemType[] = [];
-  let others: ItemType[] = [];
+  const chemistList: ItemType[] = [];
+  const others: ItemType[] = [];
   people.map((item) => {
     if (item.profession === "chemist") {
       chemistList.push(item);
