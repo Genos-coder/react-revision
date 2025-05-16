@@ -4,6 +4,7 @@ import PureComponent from "@/components/mini/describing/03_PureComponent";
 import Conditional from "@/components/mini/describing/04_Conditional";
 import ListSplit from "@/components/mini/describing/05_ListSplit";
 import Recipe from "@/components/mini/describing/06_Recipe";
+import AlternateHr from "@/components/mini/describing/07_AlternateHr";
 import Tictactoe from "@/components/mini/tictactoe/Tictactoe";
 
 function page() {
@@ -31,6 +32,10 @@ function page() {
     {
       name: "Recipe",
       component: <Recipe />,
+    },
+    {
+      name: "Alternate Hrs",
+      component: <AlternateHr />,
     },
   ];
   return (
