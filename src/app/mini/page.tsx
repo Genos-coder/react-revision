@@ -3,6 +3,7 @@ import SimpleProfile from "@/components/mini/describing/01_simpleProfile";
 import PureComponent from "@/components/mini/describing/03_PureComponent";
 import Conditional from "@/components/mini/describing/04_Conditional";
 import ListSplit from "@/components/mini/describing/05_ListSplit";
+import Recipe from "@/components/mini/describing/06_Recipe";
 import Tictactoe from "@/components/mini/tictactoe/Tictactoe";
 
 function page() {
@@ -26,6 +27,10 @@ function page() {
     {
       name: "SplitList",
       component: <ListSplit />,
+    },
+    {
+      name: "Recipe",
+      component: <Recipe />,
     },
   ];
   return (
