@@ -9,7 +9,7 @@ function Tictactoe() {
   const [winner, setWinner] = useState<null | string>(null);
   const currentState = history[history.length - 1];
   const handleClick = (id: number) => {
-    let newPattern = history[history.length - 1].slice(0);
+    const newPattern = history[history.length - 1].slice(0);
     if (newPattern[id] || winner) {
       return;
     }
@@ -100,7 +100,7 @@ const winningArr = (input: (string | null)[]) => {
     [2, 5, 8],
   ];
   for (let i = 0; i < winningCombo.length; i++) {
-    let [a, b, c] = winningCombo[i];
+    const [a, b, c] = winningCombo[i];
     if (input[a] && input[a] == input[b] && input[b] == input[c]) {
       return input[a];
     }
