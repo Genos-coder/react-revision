@@ -22,7 +22,7 @@ function Tictactoe() {
     }
 
     setHistory([...history, [...newPattern]]);
-    let newWinner = winningArr(newPattern);
+    const newWinner = winningArr(newPattern);
     console.log(newWinner);
     if (newWinner) {
       setWinner(newWinner);

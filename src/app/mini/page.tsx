@@ -1,8 +1,8 @@
 "use client";
 import SimpleProfile from "@/components/mini/describing/01_simpleProfile";
-import MockupProfileCard from "@/components/mini/describing/02_mockupProfileCard";
 import PureComponent from "@/components/mini/describing/03_PureComponent";
 import Conditional from "@/components/mini/describing/04_Conditional";
+import ListSplit from "@/components/mini/describing/05_ListSplit";
 import Tictactoe from "@/components/mini/tictactoe/Tictactoe";
 
 function page() {
@@ -15,10 +15,6 @@ function page() {
       name: "SimpleProfile",
       component: <SimpleProfile />,
     },
-    // {
-    //   name: "MockUpProfileCArd",
-    //   component: <MockupProfileCard />,
-    // },
     {
       name: "PureComponent",
       component: <PureComponent />,
@@ -26,6 +22,10 @@ function page() {
     {
       name: "Conditional Render",
       component: <Conditional />,
+    },
+    {
+      name: "SplitList",
+      component: <ListSplit />,
     },
   ];
   return (
