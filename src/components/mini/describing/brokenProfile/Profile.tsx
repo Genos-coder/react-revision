@@ -7,7 +7,6 @@ type ProfileProps = {
   };
 };
 export default function Profile({ person }: ProfileProps) {
-  person;
   return (
     <Panel>
       <Header name={person.name} />
