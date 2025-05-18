@@ -55,3 +55,25 @@ function StopWatch() {
   );
 }
 export default StopWatch;
+
+//Strings
+
+// const str1 = "hey there how it's going";
+
+// console.log(str1.toUpperCase());
+// console.log(str1.toLowerCase());
+// console.log(str1.padStart(str1.length + 2, "0"));
+// console.log(str1.startsWith("hey"));
+// console.log(str1.endsWith("going"));
+// console.log(str1.indexOf("how"));
+// console.log(str1.split(" "));
+// console.log(str1.replace("there", "ganesh"));
+// console.log(str1.includes("it's"));
+// const str2 = "  testing string ###";
+// console.log(str2.trim());
+// console.log(str2.search(/there/));
+
+// console.log(str2.repeat(2));
+// console.log(str2.replaceAll("s", "o"));
+// console.log(str1.slice(0, -3));
+// console.log(str1.substring(0, -3));
