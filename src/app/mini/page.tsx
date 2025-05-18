@@ -8,6 +8,7 @@ import AlternateHr from "@/components/mini/describing/07_AlternateHr";
 import BrokenProfile from "@/components/mini/describing/brokenProfile";
 import StopWatch from "@/components/mini/escapehatches/01_StopWatch";
 import MessageUndo from "@/components/mini/escapehatches/02_MessageUndo";
+import DebounceAlert from "@/components/mini/escapehatches/03_DebounceAlert";
 import GalleryCrash from "@/components/mini/interactivity/01_GalleryCrash";
 import ControlledInput from "@/components/mini/interactivity/02_ControlledInput";
 import CrashForm from "@/components/mini/interactivity/03_CrashForm";
@@ -91,6 +92,10 @@ function page() {
     {
       name: "Message Undo",
       component: <MessageUndo />,
+    },
+    {
+      name: "Debounce Alert",
+      component: <DebounceAlert />,
     },
   ];
   return (
