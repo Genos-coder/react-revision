@@ -1,5 +1,4 @@
 import Wrapper from "@/components/Wrapper";
-import { todo } from "node:test";
 import { FormEvent, useState } from "react";
 
 const initialTodos = [
@@ -16,7 +15,7 @@ function Todo() {
     if (text == "") {
       return;
     }
-    let newTodo = {
+    const newTodo = {
       id: todos[todos.length - 1].id + 1,
       title: text,
       done: false,

@@ -58,7 +58,7 @@ function getFinalState(
   queue: (number | ((n: number) => number))[]
 ) {
   let finalState = baseState;
-  for (let ops of queue) {
+  for (const ops of queue) {
     if (typeof ops === "number") {
       finalState += ops;
     } else {
