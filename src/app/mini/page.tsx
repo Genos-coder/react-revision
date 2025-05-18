@@ -6,6 +6,12 @@ import ListSplit from "@/components/mini/describing/05_ListSplit";
 import Recipe from "@/components/mini/describing/06_Recipe";
 import AlternateHr from "@/components/mini/describing/07_AlternateHr";
 import BrokenProfile from "@/components/mini/describing/brokenProfile";
+import GalleryCrash from "@/components/mini/interactivity/01_GalleryCrash";
+import ControlledInput from "@/components/mini/interactivity/02_ControlledInput";
+import CrashForm from "@/components/mini/interactivity/03_CrashForm";
+import TrafficLight from "@/components/mini/interactivity/04_TrafficLight";
+import RequestCounter from "@/components/mini/interactivity/05_RequestCounter";
+import StateQueue from "@/components/mini/interactivity/06_StateQueue";
 import Tictactoe from "@/components/mini/tictactoe/Tictactoe";
 
 function page() {
@@ -41,6 +47,30 @@ function page() {
     {
       name: "Broken Profile",
       component: <BrokenProfile />,
+    },
+    {
+      name: "Gallery Crash",
+      component: <GalleryCrash />,
+    },
+    {
+      name: "Controlled Input",
+      component: <ControlledInput />,
+    },
+    {
+      name: "Crash form",
+      component: <CrashForm />,
+    },
+    {
+      name: "Traffic Light",
+      component: <TrafficLight />,
+    },
+    {
+      name: "RequestCounter",
+      component: <RequestCounter />,
+    },
+    {
+      name: "StateQueue",
+      component: <StateQueue />,
     },
   ];
   return (
