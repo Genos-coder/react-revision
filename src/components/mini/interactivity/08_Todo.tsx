@@ -13,6 +13,9 @@ function Todo() {
   const [text, setText] = useState("");
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (text == "") {
+      return;
+    }
     let newTodo = {
       id: todos[todos.length - 1].id + 1,
       title: text,
@@ -65,7 +68,8 @@ function Todo() {
                 checked={item.done}
                 id=""
               />
-              <h2>{item.title}</h2>
+
+              <h2>{item.done ? <del>{item.title}</del> : item.title}</h2>
             </li>
           );
         })}
