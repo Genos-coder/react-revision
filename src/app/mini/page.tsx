@@ -9,6 +9,8 @@ import BrokenProfile from "@/components/mini/describing/brokenProfile";
 import StopWatch from "@/components/mini/escapehatches/01_StopWatch";
 import MessageUndo from "@/components/mini/escapehatches/02_MessageUndo";
 import DebounceAlert from "@/components/mini/escapehatches/03_DebounceAlert";
+import FocusedInput from "@/components/mini/escapehatches/04_FocusedInput";
+import ImageScroller from "@/components/mini/escapehatches/05_ImageScroller";
 import GalleryCrash from "@/components/mini/interactivity/01_GalleryCrash";
 import ControlledInput from "@/components/mini/interactivity/02_ControlledInput";
 import CrashForm from "@/components/mini/interactivity/03_CrashForm";
@@ -96,6 +98,14 @@ function page() {
     {
       name: "Debounce Alert",
       component: <DebounceAlert />,
+    },
+    {
+      name: "Focus Input",
+      component: <FocusedInput />,
+    },
+    {
+      name: "Image Scroller",
+      component: <ImageScroller />,
     },
   ];
   return (
