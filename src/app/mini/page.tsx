@@ -6,6 +6,7 @@ import ListSplit from "@/components/mini/describing/05_ListSplit";
 import Recipe from "@/components/mini/describing/06_Recipe";
 import AlternateHr from "@/components/mini/describing/07_AlternateHr";
 import BrokenProfile from "@/components/mini/describing/brokenProfile";
+import StopWatch from "@/components/mini/escapehatches/01_StopWatch";
 import GalleryCrash from "@/components/mini/interactivity/01_GalleryCrash";
 import ControlledInput from "@/components/mini/interactivity/02_ControlledInput";
 import CrashForm from "@/components/mini/interactivity/03_CrashForm";
@@ -81,6 +82,10 @@ function page() {
     {
       name: "Todo App",
       component: <Todo />,
+    },
+    {
+      name: "Stop WAtch",
+      component: <StopWatch />,
     },
   ];
   return (
