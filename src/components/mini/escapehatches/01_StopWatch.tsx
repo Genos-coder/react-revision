@@ -6,10 +6,10 @@ function StopWatch() {
   const [isStop, setIsStop] = useState(true);
   const refContainer = useRef<NodeJS.Timeout>(null);
   const startFunc = () => {
-    let startTime = Date.now();
+    const startTime = Date.now();
     setIsStop(false);
     refContainer.current = setInterval(() => {
-      let currentTime = Date.now();
+      const currentTime = Date.now();
       setTime(currentTime - startTime);
     }, 100);
   };
