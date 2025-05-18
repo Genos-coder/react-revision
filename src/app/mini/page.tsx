@@ -11,6 +11,7 @@ import MessageUndo from "@/components/mini/escapehatches/02_MessageUndo";
 import DebounceAlert from "@/components/mini/escapehatches/03_DebounceAlert";
 import FocusedInput from "@/components/mini/escapehatches/04_FocusedInput";
 import ImageScroller from "@/components/mini/escapehatches/05_ImageScroller";
+import COunterProblem from "@/components/mini/escapehatches/effecthelp";
 import GalleryCrash from "@/components/mini/interactivity/01_GalleryCrash";
 import ControlledInput from "@/components/mini/interactivity/02_ControlledInput";
 import CrashForm from "@/components/mini/interactivity/03_CrashForm";
@@ -106,6 +107,10 @@ function page() {
     {
       name: "Image Scroller",
       component: <ImageScroller />,
+    },
+    {
+      name: "Counter Problem",
+      component: <COunterProblem />,
     },
   ];
   return (
