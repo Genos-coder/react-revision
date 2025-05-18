@@ -12,6 +12,8 @@ import CrashForm from "@/components/mini/interactivity/03_CrashForm";
 import TrafficLight from "@/components/mini/interactivity/04_TrafficLight";
 import RequestCounter from "@/components/mini/interactivity/05_RequestCounter";
 import StateQueue from "@/components/mini/interactivity/06_StateQueue";
+import ShoppingCart from "@/components/mini/interactivity/07_ShoppingCart";
+import Todo from "@/components/mini/interactivity/08_Todo";
 import Tictactoe from "@/components/mini/tictactoe/Tictactoe";
 
 function page() {
@@ -71,6 +73,14 @@ function page() {
     {
       name: "StateQueue",
       component: <StateQueue />,
+    },
+    {
+      name: "Shopping Cart",
+      component: <ShoppingCart />,
+    },
+    {
+      name: "Todo App",
+      component: <Todo />,
     },
   ];
   return (
